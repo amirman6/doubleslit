@@ -38,7 +38,7 @@ def Double_slit_intensity(a,d,theta,lamda):
 #Double_slit_intensity(0.00002E-4,0.02E-3,10,650E-9) # making a very small, just a double slit effect
 
 
-image = Image.open('double_slit.jpg',use_container_width=True)
+image = Image.open('double_slit.jpg')
 st.image(image,use_column_width = True)
 
 st.write("""
