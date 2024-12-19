@@ -28,7 +28,7 @@ def Double_slit_intensity(a,d,theta,lamda):
     plt.xlabel('Angle (Degrees)')
     plt.ylabel('Relative Intinsity')
     plt.show()
-    st.pyplot(fig)
+    st.pyplot(fig,use_container_width=True)
     
 # running the function  
 #Double_slit_intensity(0.04E-4,0.25E-3,3,650E-9)  # double slit with single slit effect
@@ -38,7 +38,7 @@ def Double_slit_intensity(a,d,theta,lamda):
 #Double_slit_intensity(0.00002E-4,0.02E-3,10,650E-9) # making a very small, just a double slit effect
 
 
-image = Image.open('double_slit.jpg', use_container_width = 'auto')
+image = Image.open('double_slit.jpg')
 st.image(image,use_column_width = True)
 
 st.write("""
