@@ -28,7 +28,7 @@ def Double_slit_intensity(a,d,theta,lamda):
     plt.xlabel('Angle (Degrees)')
     plt.ylabel('Relative Intinsity')
     plt.show()
-    st.pyplot(fig,use_column_width = True)
+    st.pyplot(fig)
     
 # running the function  
 #Double_slit_intensity(0.04E-4,0.25E-3,3,650E-9)  # double slit with single slit effect
